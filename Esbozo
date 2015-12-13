@@ -1,0 +1,31 @@
+View
+    void login()
+    {
+        askUsername()
+        askPassword()
+        user = DOMAIN.doLogin(username,password)
+        if user.isValid()
+        {
+            VIEW.drawGraphicalInterface(user)
+        }
+        else
+        {
+            VIEW.notifyError()
+            VIEW.login()
+        }
+    }
+
+
+
+Domain
+    bool checkLogin(user,password)
+    {
+        return PERSISTENCE.hasUsername(username) and PERSISTENCE.userMatchPassword(username,password)
+    }
+
+
+
+Persistence
+
+    bool hasUsername(username);
+    bool userMatchPassword(username,password);

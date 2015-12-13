@@ -1,0 +1,7 @@
+DANI: ValidadorTauler, Usuari, TaulerComplert, CapaPersistencia, GestorUsuari,TaulerDisplayer
+
+MARIA: ControladorAjudes, ControladorLogin, ControladoUsuari, GestorHidato, CrearTaulerAutomatic,Ajudes, DriverGestioPerfil
+
+ORIOL: Tauler, Interval, Hidato, GestorPartida, MenuLogin,DriverCreadorHidato,DriverGeneral, Estadistiques
+
+EDU: CapaDomini, Casella, Partida, GestorTauler, MenuPrincipal,DruverGestEstRan, DriverGetioPartida
